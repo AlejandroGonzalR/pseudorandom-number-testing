@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import './../node_modules/bulma/css/bulma.css'
+import './assets/css/styles.scss'
 
 Vue.config.productionTip = false
 
