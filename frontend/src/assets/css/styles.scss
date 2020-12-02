@@ -1,3 +1,6 @@
+$primary-font-size: 1rem;
+$secondary-font-size: 0.85rem;
+
 html, body {
   font-family: 'Montserrat', sans-serif;
 }
@@ -5,7 +8,25 @@ html, body {
 #header {
   max-width: 50%;
 
-  .panel-block > * {
-    margin: 10px;
+  .panel-heading {
+    font-size: $primary-font-size;
   }
+
+  .panel-block {
+    > * {
+      margin: 10px;
+    }
+
+    h2 {
+      font-size: $secondary-font-size;
+    }
+  }
+}
+
+.file-label {
+  font-size: $secondary-font-size;
+}
+
+.radio {
+  font-size: $primary-font-size;
 }
