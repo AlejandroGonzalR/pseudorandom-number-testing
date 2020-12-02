@@ -12,7 +12,7 @@
           </h2>
           <div class="file is-boxed">
             <label class="file-label">
-              <input class="file-input" type="file" name="data" @change="fileSelected">
+              <input class="file-input" type="file" name="data" accept=".txt" @change="fileSelected">
               <span class="file-cta">
               <span class="file-icon">
                 <i class="fas fa-upload"></i>
